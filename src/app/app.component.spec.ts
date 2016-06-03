@@ -5,18 +5,18 @@ import {
   it,
   inject
 } from '@angular/core/testing';
-import { BoilerplateAppComponent } from '../app/boilerplate.component';
+import { AppComponent } from './app.component';
 
-beforeEachProviders(() => [BoilerplateAppComponent]);
+beforeEachProviders(() => [AppComponent]);
 
 describe('App: Boilerplate', () => {
   it('should create the app',
-      inject([BoilerplateAppComponent], (app: BoilerplateAppComponent) => {
+      inject([AppComponent], (app: AppComponent) => {
     expect(app).toBeTruthy();
   }));
 
   it('should have as title \'boilerplate works!\'',
-      inject([BoilerplateAppComponent], (app: BoilerplateAppComponent) => {
+      inject([AppComponent], (app: AppComponent) => {
     expect(app.title).toEqual('boilerplate works!');
   }));
 });

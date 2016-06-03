@@ -1,9 +1,9 @@
-export class BoilerplatePage {
+export class AppPage {
   navigateTo() {
     return browser.get('/');
   }
 
   getParagraphText() {
-    return element(by.css('boilerplate-app h1')).getText();
+    return element(by.css('app h1')).getText();
   }
 }

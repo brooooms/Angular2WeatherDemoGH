@@ -1,10 +1,10 @@
-import { BoilerplatePage } from './app.po';
+import { AppPage } from './app.po';
 
 describe('boilerplate App', function() {
-  let page: BoilerplatePage;
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new BoilerplatePage();
+    page = new AppPage();
   });
 
   it('should display message saying app works', () => {

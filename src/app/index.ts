@@ -1,2 +1,2 @@
 export * from './environment';
-export * from './boilerplate.component';
+export * from './app.component';
