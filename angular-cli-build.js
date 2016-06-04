@@ -30,7 +30,17 @@ const options =  {
     {
       module: cssnext,
       options: {
-        browsers: ['> 1%'],
+        browsers: [
+          'ie >= 9',
+          'ie_mob >= 10',
+          'ff >= 30',
+          'chrome >= 40',
+          'safari >= 7',
+          'opera >= 23',
+          'ios >= 7',
+          'android >= 4.4',
+          'bb >= 10'
+        ],
         warnForDuplicates: false
       }
     },
@@ -63,7 +73,7 @@ module.exports = function(defaults) {
         inside component level SASS.
       */
       includePaths: [
-        'src/style'
+        'src/styles'
       ]
     },
     // specifies an Array of file globs that this app will load into the `/dist/vendor` directory
