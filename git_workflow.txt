@@ -2,7 +2,7 @@
 
 -Une nouvelle feature SRFP-XXX est développée dans une branche /feature/SRFP-XXX_nom_feature créée à partir de la branche develop
 
--Les modifications des branches des différentes features sont automatiquement testées puis fusionnées dans la branche intégration (A valider avec Administrateur gitlab)
+-Les modifications des branches des différentes features sont automatiquement testées puis fusionnées dans la branche intégration  (A valider avec Administrateur gitlab)
 
 -La branche intégration est utilisée pour construire l’image de l’application qui est automatiquement déployé sur l’environnement de CI
 
