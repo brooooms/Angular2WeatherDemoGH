@@ -1,21 +1,13 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\partightenfactor0
+-A chaque début de sprint une branche integration est créée à partir de la branche develop
 
-\f0\fs22 \cf0 -A chaque d\'e9but de sprint une branche integration est cr\'e9\'e9e \'e0 partir de la branche develop\
-\
--Une nouvelle feature SRFP-XXX est d\'e9velopp\'e9e dans une branche /feature/SRFP-XXX_nom_feature cr\'e9\'e9e \'e0 partir de la branche develop\
-\
--Les modifications des branches des diff\'e9rentes features sont automatiquement test\'e9es puis fusionn\'e9es dans la branche int\'e9gration (A valider avec Administrateur gitlab)\
-\
--La branche int\'e9gration est utilis\'e9e pour construire l\'92image de l\'92application qui est automatiquement d\'e9ploy\'e9 sur l\'92environnement de CI\
-\
--Une fois revue et valid\'e9e chaque branche /feature/SRFP-XXX_nom_feature est fusionn\'e9e via une Pull Request dans la branche develop\
-\
--La fusion dans la branche develop d\'e9clenche le build d\'92une image qui sera d\'e9ploy\'e9e manuellement sur l\'92environnement de d\'e9mo\
-\
--L\'92image peut alors \'eatre d\'e9ploy\'e9e en UAT puis en production\
-}
+-Une nouvelle feature SRFP-XXX est développée dans une branche /feature/SRFP-XXX_nom_feature créée à partir de la branche develop
+
+-Les modifications des branches des différentes features sont automatiquement testées puis fusionnées dans la branche intégration (A valider avec Administrateur gitlab)
+
+-La branche intégration est utilisée pour construire l’image de l’application qui est automatiquement déployé sur l’environnement de CI
+
+-Une fois revue et validée chaque branche /feature/SRFP-XXX_nom_feature est fusionnée via une Pull Request dans la branche develop
+
+-La fusion dans la branche develop déclenche le build d’une image qui sera déployée manuellement sur l’environnement de démo
+
+-L’image peut alors être déployée en UAT puis en production
