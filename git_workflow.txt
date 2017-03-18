@@ -10,4 +10,4 @@
 
 -La fusion dans la branche develop déclenche le build d’une image qui sera déployée manuellement sur l’environnement de démo
 
--L’image peut alors être déployée en UAT puis en production
+-L’image peut alors être déployée en UAT puis en production (et en beta).
